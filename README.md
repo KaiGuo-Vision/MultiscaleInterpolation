@@ -45,6 +45,6 @@ This is a code (new implementation) of the algorithm described in "Multiscale Se
 ## Multiscale semilocal interpolation on any grayscale or 3-channels color image:
 - Run the code 
   ```
-  MSI_interp.m
+  demo_color.m
   ```
   it calls multiscale semilocal interpolation algorithm "MSI_factor2" on each channel of input and generates 2x interpolation output.
