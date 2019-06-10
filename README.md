@@ -19,31 +19,31 @@ This is a code (new implementation) of the algorithm described in "Multiscale Se
     
 - This demo also includes the comparison with other state-of-the-art interpolation algorithms:
      - Bicubic interpolation
-     ```
-     bicubicInter4()
-     ```
-     "Cubic convolution interpolation for digital image processing", R. Keys, IEEE Trans. Acoustics, Speech, and Signal Processing, 1981.
+        ```
+        bicubicInter4()
+        ```
+        "Cubic convolution interpolation for digital image processing", R. Keys, IEEE Trans. Acoustics, Speech, and Signal Processing, 1981.
      
      - Edge-directed interpolation
-     ```
-     inediInterpolation()
-     ```
-     X. Li and M. T. Orchard, “New edge-directed interpolation,” IEEE Trans. Image Processing, vol. 10, no. 10, pp. 1521–1527, Oct. 2001.
+        ```
+        inediInterpolation()
+        ```
+        X. Li and M. T. Orchard, “New edge-directed interpolation,” IEEE Trans. Image Processing, vol. 10, no. 10, pp. 1521–1527, Oct. 2001.
      
      - Edge-guided image interpolation via directional filtering and data fusion
-     ```
-     esintpInterpolation()
-     ```
-     L. Zhang and X. Wu, “An edge-guided image interpolation algorithm via directional filtering and data fusion,” IEEE Trans. Image Processing, vol. 15, no. 8, pp. 2226–2238, Aug. 2006.
+        ```
+        esintpInterpolation()
+        ```
+        L. Zhang and X. Wu, “An edge-guided image interpolation algorithm via directional filtering and data fusion,” IEEE Trans. Image Processing, vol. 15, no. 8, pp. 2226–2238, Aug. 2006.
      
      - Image interpolation by adaptive 2-D autoregressive modeling and soft-decision estimation
-     ```
-     AIinterpolation()
-     ```
-     X. Zhang and X. Wu, “Image interpolation by adaptive 2-D autoregressive modeling and soft-decision estimation,” IEEE Trans. Image Processing, vol. 17, no. 6, pp. 887–896, Jun. 2008.
+        ```
+        AIinterpolation()
+        ```
+        X. Zhang and X. Wu, “Image interpolation by adaptive 2-D autoregressive modeling and soft-decision estimation,” IEEE Trans. Image Processing, vol. 17, no. 6, pp. 887–896, Jun. 2008.
      
 ## Multiscale semilocal interpolation on any grayscale image:
 - Run the function 
-    ```
-    interp_output = MSI_factor2(input_image)
-    ```
+       ```
+       interp_output = MSI_factor2(input_image)
+       ```
