@@ -11,13 +11,13 @@ This is a code (new implementation) of the algorithm described in "Multiscale Se
 ```
 
 ## Multiscale semilocal interpolation demo:
-###### Run the code 
+   Run the code 
     ```
     demo.m
     ```
     it calls multiscale semilocal interpolation algorithm "MSI_factor2" and generates interpolation output.
     
-###### This demo also includes the comparison with other state-of-the-art interpolation algorithms:
+   This demo also includes the comparison with other state-of-the-art interpolation algorithms:
      - Bicubic interpolation
      ```
      bicubicInter4()
@@ -43,7 +43,7 @@ This is a code (new implementation) of the algorithm described in "Multiscale Se
      X. Zhang and X. Wu, “Image interpolation by adaptive 2-D autoregressive modeling and soft-decision estimation,” IEEE Trans. Image Processing, vol. 17, no. 6, pp. 887–896, Jun. 2008.
      
 ## Multiscale semilocal interpolation on any grayscale image:
-###### Run the function 
+   Run the function 
     ```
     interp_output = MSI_factor2(input_image)
     ```
