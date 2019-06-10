@@ -42,9 +42,9 @@ This is a code (new implementation) of the algorithm described in "Multiscale Se
         ```
         X. Zhang and X. Wu, “Image interpolation by adaptive 2-D autoregressive modeling and soft-decision estimation,” IEEE Trans. Image Processing, vol. 17, no. 6, pp. 887–896, Jun. 2008.
      
-## Multiscale semilocal interpolation on any grayscale or 3-channels color image:
-- Run the code 
+## Multiscale semilocal interpolation on any grayscale image or any channel of image:
+- Call the function:
   ```
-  demo_color.m
+  output_interp = MSI_factor2(input_image)
   ```
-  it calls multiscale semilocal interpolation algorithm "MSI_factor2" on each channel of input and generates 2x interpolation output.
+  it generates 2x interpolation output.
