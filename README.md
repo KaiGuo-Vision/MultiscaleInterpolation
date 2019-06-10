@@ -1,2 +1,21 @@
-# MultiscaleInterpolation
-Code of multi-scale semi-local image interpolation algorithm described in "Multiscale Semilocal Interpolation With Antialiasing, K. Guo, X. Yang, H. Zha, W. Lin and S. Yu, IEEE Trans. on Image Processing, 2012".
+Multiscale Semilocal Interpolation With Antialiasing
+
+This is a code (new implementation) of the algorithm described in "Multiscale Semilocal Interpolation With Antialiasing, K. Guo, X. Yang, H. Zha, W. Lin and S. Yu, IEEE Trans. Image Processing, 2012". If you use this code for academic purposes, please consider citing:
+
+@injournal{TIP2012,
+  	title={Multiscale Semilocal Interpolation With Antialiasing},
+  	author={Kai Guo, Xiaokang Yang, Hongyuan Zha, Weiyao Lin and Songyu Yu},
+  	booktitle={IEEE Transactions on Image Processing},
+  	year={2012}
+}
+
+Multiscale semilocal interpolation demo:
+  - Run the code 'demo.m', it calls multiscale semilocal interpolation algorithm "MSI_factor2" and generates interpolation output.
+  - This demo also includes the comparison with other state-of-the-art interpolation algorithms:
+     * bicubicInter4: Bicubic interpolation.  "Cubic convolution interpolation for digital image processing", R. Keys, IEEE Trans. Acoustics, Speech, and Signal Processing, 1981.
+     * inediInterpolation: X. Li and M. T. Orchard, “New edge-directed interpolation,” IEEE Trans. Image Processing, vol. 10, no. 10, pp. 1521–1527, Oct. 2001.
+     * esintpInterpolation: L. Zhang and X. Wu, “An edge-guided image interpolation algorithm via directional filtering and data fusion,” IEEE Trans. Image Processing, vol. 15, no. 8, pp. 2226–2238, Aug. 2006.
+     * AIinterpolation: X. Zhang and X. Wu, “Image interpolation by adaptive 2-D autoregressive modeling and soft-decision estimation,” IEEE Trans. Image Processing, vol. 17, no. 6, pp. 887–896, Jun. 2008.
+     
+Multiscale semilocal interpolation on any image:
+  - Run the function "interp_output = MSI_factor2(LR_input)".
