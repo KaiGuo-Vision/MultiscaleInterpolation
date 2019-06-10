@@ -15,7 +15,7 @@ This is a code (new implementation) of the algorithm described in "Multiscale Se
     ```
     demo.m
     ```
-    it calls multiscale semilocal interpolation algorithm "MSI_factor2" and generates 2x interpolation output.
+    it calls multiscale semilocal interpolation algorithm "MSI_factor2" on the grayscale input and generates 2x interpolation output.
     
 - This demo also includes the comparison with other state-of-the-art interpolation algorithms:
      - Bicubic interpolation
