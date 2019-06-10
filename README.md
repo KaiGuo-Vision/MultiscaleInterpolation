@@ -44,6 +44,6 @@ This is a code (new implementation) of the algorithm described in "Multiscale Se
      
 ## Multiscale semilocal interpolation on any grayscale image:
 - Run the function 
-       ```
-       interp_output = MSI_factor2(input_image)
-       ```
+  ```
+  interp_output = MSI_factor2(input_image)
+  ```
